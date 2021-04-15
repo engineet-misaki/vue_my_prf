@@ -1,5 +1,5 @@
 <template>
-  <div>
+    <div style="height: 100%;">
     <nav-bar />
     <Nuxt />
   </div>
@@ -59,5 +59,14 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+html,
+body {
+  background-color: #85b9dd;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 </style>

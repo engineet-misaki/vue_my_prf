@@ -11,19 +11,30 @@ export default {
         body: true
       },
       {
+        src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js',
+        body: true
+      },
+      {
+        src: 'js/jquery.mousewheel.js',
+        body: true
+      },
+      {
         src: '/index.js',
         body: true
       }
     ],
     title: 'nuxt_my_prf',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ja'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' }
     ],
+    bodyAttrs: {
+      class: 'body-class'
+    },
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
