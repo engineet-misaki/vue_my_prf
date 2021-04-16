@@ -19,7 +19,7 @@ export default {
         body: true
       },
       {
-        src: '/index.js',
+        src: 'js/index.js',
         body: true
       }
     ],

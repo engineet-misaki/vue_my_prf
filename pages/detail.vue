@@ -143,7 +143,7 @@
           <span class="txt"><strong>Scroll</strong></span>
         </div>
       </div>
-      <div class="m-5 p-5  w-25 obj2">
+      <div class="m-5 p-5  w-25 obj2 top_fade">
         <div class="card rounded-circle" style="width: 600px;">
           <!-- <svg class="bd-placeholder-img class="rounded-circle" card-img-top" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect fill="#868e96" width="100%" height="100%"/><text fill="#dee2e6" dy=".3em" x="50%" y="50%">Image cap</text></svg> -->
           <img
@@ -163,7 +163,7 @@
           </div>
         </div>
       </div>
-      <div class="m-5 p-5  w-25 obj3">
+      <div class="m-5 p-5  w-25 obj3 top_fade">
         <div class="card rounded-circle" style="width: 600px;">
           <!-- <svg class="bd-placeholder-img class="rounded-circle" card-img-top" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect fill="#868e96" width="100%" height="100%"/><text fill="#dee2e6" dy=".3em" x="50%" y="50%">Image cap</text></svg> -->
           <img
@@ -183,7 +183,7 @@
           </div>
         </div>
       </div>
-      <div class="m-5 p-5  w-25 obj4">
+      <div class="m-5 p-5  w-25 obj4 top_fade">
         <div class="card rounded-circle" style="width: 600px;">
           <!-- <svg class="bd-placeholder-img class="rounded-circle" card-img-top" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect fill="#868e96" width="100%" height="100%"/><text fill="#dee2e6" dy=".3em" x="50%" y="50%">Image cap</text></svg> -->
           <img
@@ -203,43 +203,202 @@
           </div>
         </div>
       </div>
-      <div class="p-5 my-5 obj_table">
-            <table class="table table-dark rounded my-5">
-            <thead>
-                <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                </tr>
-                <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                </tr>
-                <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-                </tr>
-            </tbody>
-            </table>
-      </div>
-      <div class="p-5 bg-dark obj5"></div>
-      <div class="p-5 bg-info obj6"></div>
-      <div class="p-5 bg-dark obj7"></div>
-      <div class="p-5 bg-info obj8"></div>
-      <div class="p-5 bg-dark obj9"></div>
+      <!-- <div class="p-5 obj_table">
+      <svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        width="50px"
+        height="30px"
+        viewBox="0 0 762 331"
+        enable-background="new 0 0 762 331"
+        xml:space="preserve"
+        class="d-inline-block m-5"
+      >
+        <path
+          fill="#FFFFFF"
+          d="M715.394,228h-16.595c0.79-5.219,1.201-10.562,1.201-16c0-58.542-47.458-106-106-106
+            c-8.198,0-16.178,0.932-23.841,2.693C548.279,45.434,488.199,0,417.5,0c-84.827,0-154.374,65.401-160.98,148.529
+            C245.15,143.684,232.639,141,219.5,141c-49.667,0-90.381,38.315-94.204,87H46.607C20.866,228,0,251.058,0,279.5
+            S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715.394,228z"
+        />
+      </svg>
+      <svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        width="200px"
+        height="140px"
+        viewBox="0 0 762 331"
+        enable-background="new 0 0 762 331"
+        xml:space="preserve"
+        class="d-inline-block m-5"
+      >
+        <path
+          fill="#FFFFFF"
+          d="M715.394,228h-16.595c0.79-5.219,1.201-10.562,1.201-16c0-58.542-47.458-106-106-106
+            c-8.198,0-16.178,0.932-23.841,2.693C548.279,45.434,488.199,0,417.5,0c-84.827,0-154.374,65.401-160.98,148.529
+            C245.15,143.684,232.639,141,219.5,141c-49.667,0-90.381,38.315-94.204,87H46.607C20.866,228,0,251.058,0,279.5
+            S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715.394,228z"
+        />
+      </svg>
+      <svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        width="100px"
+        height="100px"
+        viewBox="0 0 762 331"
+        enable-background="new 0 0 762 331"
+        xml:space="preserve"
+        class="d-inline-block m-5"
+      >
+        <path
+          fill="#FFFFFF"
+          d="M715.394,228h-16.595c0.79-5.219,1.201-10.562,1.201-16c0-58.542-47.458-106-106-106
+            c-8.198,0-16.178,0.932-23.841,2.693C548.279,45.434,488.199,0,417.5,0c-84.827,0-154.374,65.401-160.98,148.529
+            C245.15,143.684,232.639,141,219.5,141c-49.667,0-90.381,38.315-94.204,87H46.607C20.866,228,0,251.058,0,279.5
+            S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715.394,228z"
+        />
+      </svg>
+      <svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        width="180px"
+        height="130px"
+        viewBox="0 0 762 331"
+        enable-background="new 0 0 762 331"
+        xml:space="preserve"
+        class="d-inline-block m-5"
+      >
+        <path
+          fill="#FFFFFF"
+          d="M715.394,228h-16.595c0.79-5.219,1.201-10.562,1.201-16c0-58.542-47.458-106-106-106
+            c-8.198,0-16.178,0.932-23.841,2.693C548.279,45.434,488.199,0,417.5,0c-84.827,0-154.374,65.401-160.98,148.529
+            C245.15,143.684,232.639,141,219.5,141c-49.667,0-90.381,38.315-94.204,87H46.607C20.866,228,0,251.058,0,279.5
+            S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715.394,228z"
+        />
+      </svg>
+      <svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        width="190px"
+        height="90px"
+        viewBox="0 0 762 331"
+        enable-background="new 0 0 762 331"
+        xml:space="preserve"
+        class="d-inline-block m-5"
+      >
+        <path
+          fill="#FFFFFF"
+          d="M715.394,228h-16.595c0.79-5.219,1.201-10.562,1.201-16c0-58.542-47.458-106-106-106
+            c-8.198,0-16.178,0.932-23.841,2.693C548.279,45.434,488.199,0,417.5,0c-84.827,0-154.374,65.401-160.98,148.529
+            C245.15,143.684,232.639,141,219.5,141c-49.667,0-90.381,38.315-94.204,87H46.607C20.866,228,0,251.058,0,279.5
+            S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715.394,228z"
+        />
+      </svg>
+      <svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        width="160px"
+        height="180px"
+        viewBox="0 0 762 331"
+        enable-background="new 0 0 762 331"
+        xml:space="preserve"
+        class="d-inline-block m-5"
+      >
+        <path
+          fill="#FFFFFF"
+          d="M715.394,228h-16.595c0.79-5.219,1.201-10.562,1.201-16c0-58.542-47.458-106-106-106
+            c-8.198,0-16.178,0.932-23.841,2.693C548.279,45.434,488.199,0,417.5,0c-84.827,0-154.374,65.401-160.98,148.529
+            C245.15,143.684,232.639,141,219.5,141c-49.667,0-90.381,38.315-94.204,87H46.607C20.866,228,0,251.058,0,279.5
+            S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715.394,228z"
+        />
+      </svg>
+      <svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        width="200px"
+        height="170px"
+        viewBox="0 0 762 331"
+        enable-background="new 0 0 762 331"
+        xml:space="preserve"
+        class="d-inline-block m-5"
+      >
+        <path
+          fill="#FFFFFF"
+          d="M715.394,228h-16.595c0.79-5.219,1.201-10.562,1.201-16c0-58.542-47.458-106-106-106
+            c-8.198,0-16.178,0.932-23.841,2.693C548.279,45.434,488.199,0,417.5,0c-84.827,0-154.374,65.401-160.98,148.529
+            C245.15,143.684,232.639,141,219.5,141c-49.667,0-90.381,38.315-94.204,87H46.607C20.866,228,0,251.058,0,279.5
+            S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715.394,228z"
+        />
+      </svg>
+      <svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        width="140px"
+        height="140px"
+        viewBox="0 0 762 331"
+        enable-background="new 0 0 762 331"
+        xml:space="preserve"
+        class="d-inline-block m-5"
+      >
+        <path
+          fill="#FFFFFF"
+          d="M715.394,228h-16.595c0.79-5.219,1.201-10.562,1.201-16c0-58.542-47.458-106-106-106
+            c-8.198,0-16.178,0.932-23.841,2.693C548.279,45.434,488.199,0,417.5,0c-84.827,0-154.374,65.401-160.98,148.529
+            C245.15,143.684,232.639,141,219.5,141c-49.667,0-90.381,38.315-94.204,87H46.607C20.866,228,0,251.058,0,279.5
+            S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715.394,228z"
+        />
+      </svg>
+      <svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        width="200px"
+        height="170px"
+        viewBox="0 0 762 331"
+        enable-background="new 0 0 762 331"
+        xml:space="preserve"
+        class="d-inline-block m-5"
+      >
+        <path
+          fill="#FFFFFF"
+          d="M715.394,228h-16.595c0.79-5.219,1.201-10.562,1.201-16c0-58.542-47.458-106-106-106
+            c-8.198,0-16.178,0.932-23.841,2.693C548.279,45.434,488.199,0,417.5,0c-84.827,0-154.374,65.401-160.98,148.529
+            C245.15,143.684,232.639,141,219.5,141c-49.667,0-90.381,38.315-94.204,87H46.607C20.866,228,0,251.058,0,279.5
+            S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715.394,228z"
+        />
+      </svg>
+      </div> -->
+      <div class="bg-dark obj5 top_slide"></div>
+      <div class="p-5 bg-info obj6 top_slide"></div>
+      <div class="p-5 bg-dark obj7 top_slide"></div>
+      <div class="p-5 bg-info obj8 top_slide"></div>
+      <div class="p-5 bg-dark obj9 top_slide"></div>
       <div class="p-5 bg-dark rounded-circle obj10"></div>
       <div class="p-5 bg-dark obj11"></div>
     </div>
@@ -247,13 +406,6 @@
 </template>
 
 <style scoped>
-#__nuxt {
-  height: 100%;
-}
-#__lyout {
-  height: 100%;
-}
-
 .yoko-scllor {
   width: 12000px;
   opacity: 1;
@@ -465,7 +617,7 @@ svg {
   10% {
     opacity: 0.7;
   }
-  90% {
+  95% {
     opacity: 0;
   }
   100% {
@@ -506,7 +658,6 @@ svg {
   position: absolute;
   top: 0px;
   left: 5500px;
-  height: 100%;
   width: 1000px;
 }
 .obj5 {
